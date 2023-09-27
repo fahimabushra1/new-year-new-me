@@ -1,0 +1,21 @@
+.contact-pic {
+    position: relative;
+}
+
+.contact-detail {
+    position: absolute;
+    bottom: 110px;
+    right: 200px;
+    text-align: right;
+}
+.contact-detail>h1{
+    color: green;
+    font-size: 60px;
+}
+
+.contact-detail>button{
+    background-color: rgba(235, 129, 9, 0.925);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
