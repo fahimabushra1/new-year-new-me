@@ -1,3 +1,6 @@
+/* contact-sec css */
+
+
 .contact-pic {
     position: relative;
 }
@@ -8,14 +11,47 @@
     right: 200px;
     text-align: right;
 }
-.contact-detail>h1{
+
+.contact-detail>h1 {
     color: green;
     font-size: 60px;
 }
 
-.contact-detail>button{
+.contact-detail>button {
     background-color: rgba(235, 129, 9, 0.925);
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
+}
+
+
+/* failures-sec css */
+
+
+.failures-sec {
+    margin: 10px;
+    padding: 80px;
+}
+
+.failures {
+    display: flex;
+    justify-content: center;
+}
+
+.failures-pic {}
+
+.failures-text {
+    padding-top: 240px;
+    padding-left: 40px;
+    padding-right: 80px;
+    text-align: left;
+    background-color: rgba(235, 129, 9, 0.925);
+}
+
+.failures-text>h1 {
+    font-size: 40px;
+}
+
+.failures-text>ul {
+    list-style-image: url(./images/icons/check\ 1.png);
 }
