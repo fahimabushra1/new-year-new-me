@@ -95,3 +95,51 @@
     border-radius: 10px;
     color: green;
 }
+
+/* footetr style start */
+
+.footer-sec {
+    background-color: black;
+    color: bisque;
+    padding: 8em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-detail h1 {
+    font-size: 4vw;
+}
+
+.footer-detail img {
+    padding: 0 4px;
+}
+
+.footer-input {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.input-label {
+    font-size: 2vw;
+}
+
+.footer-input input {
+    padding: 14px 26px 14px 6px;
+    border-radius: 10px;
+    background-color: black;
+    color: bisque;
+    border: 1px solid bisque;
+}
+
+.footer-input button {
+    background-color: rgba(235, 129, 9, 0.925);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: green;
+    margin-top: 18px;
+}
